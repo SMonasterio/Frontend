@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body > div {
+  background-color: #1cd1b0;
+}
+
+body > div > p {
+  font-weight: bold;
+  padding: 3px 20px;
+}
+/*HEADER*/
+/*logo y titulo*/
+header > div {
+  background-color: #00669f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header > div > img {
+  width: 99px;
+  height: 74px;
+}
+/*fin logo y titulo*/
+
+/*nav*/
+nav {
+  background-color: #001d2d;
+  color: white;
+  height: 40px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+}
+
+ul > li {
+  list-style: none;
+  margin-left: 7px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+/*fin nav*/
+
+/*FIN HEADER*/
+
+/*MAIN*/
+
+/*cards*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  flex-wrap: wrap;
+}
+
+.card1,
+.card2,
+.card3 {
+  background-color: #f3f3f3;
+  width: 25%;
+  height: 650px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img_background {
+  width: 100%;
+  position: relative;
+}
+.avatar {
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+}
+
+.corazon {
+  color: red;
+  position: absolute;
+  margin-top: 15px;
+  margin-right: 20%;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 23%;
+}
+
+.card_text {
+  margin-top: 10px;
+  width: 70%;
+}
+
+.boton {
+  border-style: solid;
+  background-color: #00669f;
+  border-color: #00669f;
+  width: 130px;
+  height: 50px;
+ /*  bottom: 5px; */
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ver_mas {
+  text-decoration: none;
+  color: white;
+}
+
+/*fin cards*/
+/*FIN MAIN*/
+/*footer*/
+footer {
+  background-color: #00669f;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > p {
+  color: white;
+  text-align: center;
+}
+
+/*FORMULARIO*/
+
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 561px;
+}
+form > p {
+  margin-top: 20px;
+}
+legend {
+  font-size: 72px;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 7px;
+  font-weight: bold;
+}
+
+.submit {
+  background-color: #1cd1b0;
+  border-radius: 23px;
+  border-style: none;
+}
+
+form > p > span {
+  color: #00669f;
+}
+form > p > a {
+  text-decoration: none;
+}
+
+.pais{
+  width: 100%;
+  padding: 5px;
+}
+
+.resetear,
+.registrar{
+width: 49%;  
+}
+.registrar{
+  background-color: #1cd1b0;
+  border-radius: 23px;
+  border-style: none;
+  height: 54px;
+}
+.resetear{
+  background-color: #888888;
+  border-radius: 23px;
+  border-style: none;
+  height: 54px;
+}
+
+.comentarios{
+  margin-top: 20px;
+  height: 151px;
+width: 100%;
+}
+
