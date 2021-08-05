@@ -1,0 +1,43 @@
+/*HEADER*/
+body{
+margin: 0;
+}
+.logoBatman{
+    background-color: #E5E5E5;
+    text-align: center;
+}
+h1{
+    background-color: #C4C4C4;
+    color: #005677;
+    text-align: center;
+    margin: 0;
+    
+}
+/*MAIN*/
+.info{
+margin: 150px;
+}
+
+h3{
+    background-color: #C4C4C4;
+    color: #005677;
+    
+}
+
+
+.datosPersonales{
+    font-style: italic;
+    font-weight: bold;
+}
+
+dt{
+    font-weight: bold;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #005677;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
