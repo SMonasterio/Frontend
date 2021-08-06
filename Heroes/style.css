@@ -86,7 +86,7 @@ ul > li > a {
 }
 .img_background {
   width: 100%;
-  position: relative; 
+  position: relative;
 }
 .avatar {
   border-radius: 50%;
@@ -95,7 +95,6 @@ ul > li > a {
   margin-bottom: 15px;
   width: 40%;
   /* position: absolute; */
-  
 }
 
 .corazon {
@@ -118,9 +117,9 @@ h2 {
   border-style: solid;
   background-color: #00669f;
   border-color: #00669f;
-  width: 130px;
-  height: 50px;
- /*  bottom: 5px; */
+  width: 30%;
+ /*  height: 50px; */
+  /*  bottom: 5px; */
   margin-top: 20%;
   display: flex;
   justify-content: center;
@@ -149,12 +148,11 @@ footer > p {
 
 /*FORMULARIO*/
 
-
 .formulario {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   height: 561px;
 }
 form > p {
@@ -184,31 +182,63 @@ form > p > a {
   text-decoration: none;
 }
 
-.pais{
+.pais {
   width: 100%;
   padding: 5px;
 }
 
 .resetear,
-.registrar{
-width: 49%;  
+.registrar {
+  width: 49%;
 }
-.registrar{
+.registrar {
   background-color: #1cd1b0;
   border-radius: 23px;
   border-style: none;
   height: 54px;
 }
-.resetear{
+.resetear {
   background-color: #888888;
   border-radius: 23px;
   border-style: none;
   height: 54px;
 }
 
-.comentarios{
+.comentarios {
   margin-top: 20px;
   height: 151px;
-width: 100%;
+  width: 100%;
 }
 
+@media (max-width: 480px) {
+  .card1,
+  .card2,
+  .card3 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card1,
+  .card2,
+  .card3 {
+    width: 80%;
+  }
+}
+
+@media (min-width: 481px) {
+  .card1,
+  .card2,
+  .card3 {
+    width: 40%;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .card1,
+  .card2,
+  .card3 {
+    width: 25%;
+  }
+}
