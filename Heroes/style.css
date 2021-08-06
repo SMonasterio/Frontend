@@ -82,15 +82,20 @@ ul > li > a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 .img_background {
   width: 100%;
-  position: relative;
+  position: relative; 
 }
 .avatar {
   border-radius: 50%;
-  position: absolute;
-  top: 50%;
+  margin-top: -60px;
+  z-index: 999;
+  margin-bottom: 15px;
+  width: 40%;
+  /* position: absolute; */
+  
 }
 
 .corazon {
@@ -102,7 +107,6 @@ ul > li > a {
 
 h2 {
   text-align: center;
-  margin-top: 23%;
 }
 
 .card_text {
